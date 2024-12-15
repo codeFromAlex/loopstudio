@@ -1,0 +1,24 @@
+@import url('css/global/bolierplate.css');
+@import url('css/components/header.css');
+@import url('css/components/about.css');
+@import url('css/components/creations.css');
+@import url('css/components/footer.css');
+
+:root {
+    --primary-color: hsl(0, 0%, 100%);
+    --text-color: hsl(0, 0%, 0%);
+    --light-accent: hsl(0, 0%, 55%);
+    --dark-accent: hsl(0, 0%, 41%);
+    --ff-base: "Alata", sans-serif;
+    --ff-accent: "Josefin Sans", sans-serif;
+    --fw-light: 300;
+    --fw-regular: 400;
+}
+
+ 
+
+
+
+
+
+  

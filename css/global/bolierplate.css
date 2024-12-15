@@ -1,0 +1,78 @@
+/*
+  1. Use a more-intuitive box-sizing model.
+*/
+*, *::before, *::after {
+    box-sizing: border-box;
+  }
+  
+  /*
+    2. Remove default margin
+  */
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /*
+    Typographic tweaks!
+    3. Add accessible line-height
+    4. Improve text rendering
+  */
+  body {
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+  }
+  
+  /*
+    5. Improve media defaults
+  */
+  img, picture, video, canvas, svg {
+    display: block;
+    max-width: 100%;
+  }
+  
+  /*
+    6. Remove built-in form typography styles
+  */
+  input, button, textarea, select {
+    font: inherit;
+  }
+  
+  /*
+    7. Avoid text overflows
+  */
+  p {
+    font-family: var(--ff-base);
+  }
+
+  h2 {
+    font-size: 2rem;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: clamp(2rem, 1.647887323943662rem + 1.5023474178403755vw, 3rem)
+  }
+  
+  
+  h1, h2, h3, h4, h5, h6 {
+    /* overflow-wrap: break-word; */
+    font-family: var(--ff-accent);
+    font-weight: var(--fw-light);
+  }
+  
+  a {
+    text-decoration: none;
+    color: var(--primary-color);
+  }
+
+  ul {
+    list-style-type: none;
+  }
+
+  li {
+    list-style: none;
+  }
+
+  body {
+    margin-inline: auto;
+    font-family: var(--ff-base)
+  }
